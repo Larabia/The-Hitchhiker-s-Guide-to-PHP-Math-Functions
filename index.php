@@ -10,3 +10,9 @@ echo $a."\n";
 $b = deg2rad($a);
 echo $b."\n";
 
+//take the cosine of $b and store it in a new variable, $c.
+
+$c = cos($b);
+echo $c."\n";
+
+
