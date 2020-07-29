@@ -15,4 +15,8 @@ echo $b."\n";
 $c = cos($b);
 echo $c."\n";
 
+//round $c to 3 decimal places and store the result in a new variable, $d.
+
+$d = round($c, 3);
+echo $d."\n";
 
