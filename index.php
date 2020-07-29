@@ -40,5 +40,10 @@ echo $g."\n";
 $h = rad2deg($g);
 echo $h."\n";
 
+//floor (round down) $h and store the result in $i.
+
+$i = floor($h);
+echo $i."\n";
+
 
 
