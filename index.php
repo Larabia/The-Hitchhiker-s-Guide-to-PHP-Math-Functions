@@ -4,6 +4,12 @@ $initial = '555';
 //Find a PHP function to convert this octal string ($initial) to a decimal number.
 $a= octdec($initial);
 echo $a."\n";
+<?php
+$initial = '555';
+
+//Find a PHP function to convert this octal string ($initial) to a decimal number.
+$a= octdec($initial);
+echo $a."\n";
 
 //The value of $a is a number of degrees. Use a PHP function to convert it to radians and store the result in a new variable, $b.
 
@@ -25,5 +31,8 @@ echo $d."\n";
 $e = log($d);
 echo $e."\n";
 
+//take the absolute value of $e and store it in $f.
 
+$f = abs($e);
+echo $f."\n";
 
