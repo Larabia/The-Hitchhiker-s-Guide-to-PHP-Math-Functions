@@ -20,3 +20,10 @@ echo $c."\n";
 $d = round($c, 3);
 echo $d."\n";
 
+//take the natural log of $d and store the result in a new variable, $e.
+
+$e = log($d);
+echo $e."\n";
+
+
+
