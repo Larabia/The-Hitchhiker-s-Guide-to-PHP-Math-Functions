@@ -35,4 +35,10 @@ echo $f."\n";
 $g = acos($f);
 echo $g."\n";
 
+//$g is a number in radians. Use a PHP function to convert this to a number of degrees and store it as $h.
+
+$h = rad2deg($g);
+echo $h."\n";
+
+
 
